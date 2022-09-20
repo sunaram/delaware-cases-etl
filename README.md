@@ -53,8 +53,10 @@ Scrape cases with filing date from 2 days to now
 ```
 scrapy crawl delaware -a days=2 -o data/delaware.csv
 ```
-Save the data to a sqlite db  
+Save the data to a sqlite db 
+set the environment variable CONNECTION_STRING to sqlite:///data/delaware.db or go to CaseCrawler/settings.py and change the CONNECTION_STRING value to sqlite:///data/delaware.db
 ```
 scrapy crawl delaware
 ```
+You will see the sqlite db in the "data" directory
 You can also store the data in mysql database by passing connection string acceptable in a SQLAlchemy format 
