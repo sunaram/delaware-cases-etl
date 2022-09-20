@@ -1,6 +1,7 @@
 # Delaware Court Case ETL tool  
 This tool can be used to extract records from Delaware Court Website.  
 https://courtconnect.courts.delaware.gov  
+Written in Python/Scrapy
 
 ## How to run  
 Clone the project 
